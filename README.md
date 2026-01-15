@@ -1,5 +1,14 @@
 # entropy
 
+> **Small disclaimer for admission officers and Dauren reading this (hi 👋):** 
+> This is not a "I started a nonprofit three days before application deadlines" situation.  
+> I've been messing around with these ideas for a while and just didn't bother publishing them until recently.
+
+> **Another small disclaimer:**  
+> **Oh no! Blasphemy!** Some parts of this were written with AI assistance.
+> The goal here was exploring ideas and understanding algorithms, not pretending this is handcrafted, production-ready code, but for the most part (important parts) were written by me.
+
+
 so basically i was playing around with shannon entropy and got kinda obsessed with how you can measure "randomness" in a sequence. like if you have `AAAA` that's boring (entropy = 0), but if you have random gibberish that's spicy (entropy = like 8). and i wanted to see this across a sliding window so i could spot patterns and weird stuff.
 
 ended up making this thing. it's not super complicated but it's fun to play with.
